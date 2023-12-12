@@ -99,9 +99,9 @@ where row_num > 1
 
 
 Select *
-From NashvilleHousing
+From analysis.nashville_housing_data_for_data_cleaning 
 
-Alter Table NashvilleHousing
+Alter Table analysis.nashville_housing_data_for_data_cleaning 
 Drop Column SaleDate, PropertyAddress
 
 
